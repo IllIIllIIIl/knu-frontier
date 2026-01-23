@@ -1,0 +1,86 @@
+{
+  "student_info": {},
+  "works": [
+    {
+      "session": 1,
+      "timestamp": "2026-01-23 05:41:27",
+      "prompt": "a cute rainbow cat  flying in space",
+      "negative_prompt": "-",
+      "technique": "기본 프롬프팅",
+      "notes": "AI에게 명령을 내리는 프롬프트에도 여러가지 종류의 방법이 있고, 이 방법들을 다양하고 세밀하게 사용할 수 록 AI가 더더욱 정밀한 결과를 내준다는 것을 배움.",
+      "image_path": "images/session1_1.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:52",
+      "prompt": " cat",
+      "negative_prompt": "-",
+      "technique": "Zero-shot 프롬프팅",
+      "notes": "단순한 랜덤 고양이를 생성하는 제로-샷과 달리, 세부입력을 통한 프롬프트는 내가 원하는 고양이의 이미지를 거의 비슷하게 생성해내었다.",
+      "image_path": "images/session2_1.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:57",
+      "prompt": " cat",
+      "negative_prompt": "-",
+      "technique": "Zero-shot 프롬프팅",
+      "notes": "단순한 랜덤 고양이를 생성하는 제로-샷과 달리, 세부입력을 통한 프롬프트는 내가 원하는 고양이의 이미지를 거의 비슷하게 생성해내었다.",
+      "image_path": "images/session2_2.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:57",
+      "prompt": "a cute rainbow cat flying in space.",
+      "negative_prompt": "-",
+      "technique": "상세 프롬프팅",
+      "notes": "단순한 랜덤 고양이를 생성하는 제로-샷과 달리, 세부입력을 통한 프롬프트는 내가 원하는 고양이의 이미지를 거의 비슷하게 생성해내었다.",
+      "image_path": "images/session2_3.png"
+    },
+    {
+      "session": 3,
+      "timestamp": "2026-01-23 05:54:08",
+      "prompt": "a forest, animal, silence, twilight, scared, cyberpunk style, neon lights, rain, futuristic city, dark atmosphere, neon lighting, colorful glow, night, wide shot, panoramic view",
+      "negative_prompt": "-",
+      "technique": "스타일 프롬프팅",
+      "notes": "AI가 각 컨셉에 맞는 이미지를 이해하고 생성하는 것이 가능하다는 것도 확인함.",
+      "image_path": "images/session3_1.png"
+    },
+    {
+      "session": 4,
+      "timestamp": "2026-01-23 06:23:08",
+      "prompt": "a beautiful portrait of a young woman, elegant dress, garden background, soft lighting",
+      "negative_prompt": "bad hands, extra fingers, mutated hands, poorly drawn face, mutation, deformed, ugly",
+      "technique": "네거티브 프롬프팅",
+      "notes": "적당한 명령으로 과포화 되지 않게 조심해야함.",
+      "image_path": "images/session4_1.png"
+    },
+    {
+      "session": 5,
+      "timestamp": "2026-01-23 06:29:22",
+      "prompt": "a person sitting alone on an empty bench, rainy day, view from behind, grey cloudy sky, melancholic atmosphere",
+      "negative_prompt": "blurry, low quality, distorted, text, watermark",
+      "technique": "Step-back 프롬프팅",
+      "notes": "같은 제시어라도 주제에 따라 완전히 다른 이미지가 연상될 수 있기 때문에 내가 그릴려고 하는 이미지는 무엇인가를 확실하게 정의해야함.",
+      "image_path": "images/session5_1.png"
+    },
+    {
+      "session": 6,
+      "timestamp": "2026-01-23 06:35:28",
+      "prompt": "a  coalescence robot, fight, city, dynamic",
+      "negative_prompt": "blurry, low quality",
+      "technique": "CoT 레이어 빌딩",
+      "notes": "레이어를 하나씩 설정하니 이전 이미지 생성 결과를 토대로 더 관련성 있게 생성함.",
+      "image_path": "images/session6_1.png"
+    },
+    {
+      "session": 7,
+      "timestamp": "2026-01-23 06:40:14",
+      "prompt": "\nA cat wearing a Pop-Tart knot leaves its tail behind to take over space., fantasy art, magical, epic, detailed illustration, highly detailed, sharp focus, 8k resolution",
+      "negative_prompt": "realism, extra hands and foots",
+      "technique": "종합",
+      "notes": "생각보다 잘 나오지 않음",
+      "image_path": "images/session7_1.png"
+    }
+  ]
+}
